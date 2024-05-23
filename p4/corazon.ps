@@ -1,0 +1,36 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 600 300
+
+% Dibuja el corazón
+newpath
+150 150 moveto
+150 250 50 200 100 100 curveto
+100 50 200 50 200 100 curveto
+250 200 150 250 150 150 curveto
+closepath
+1 0 0 setrgbcolor fill
+stroke
+
+% Configura la fuente y el tamaño
+/Helvetica findfont
+14 scalefont
+setfont
+
+% Dibuja el primer bloque de texto en gris claro
+0.6 setgray
+220 250 moveto
+(La belleza no es nada, no permanece.) show
+220 230 moveto
+(No sabes la suerte que tienes sin belleza.) show
+
+% Dibuja el segundo bloque de texto en gris medio
+0.3 setgray
+220 210 moveto
+(Porque si le gustas a alguien,) show
+
+% Dibuja el tercer bloque de texto en negro
+0 setgray
+220 190 moveto
+(sabes que es por otra cosa.) show
+
+showpage

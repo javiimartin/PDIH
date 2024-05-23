@@ -1,0 +1,57 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 400 250
+
+% Dibuja el borde de la tarjeta
+newpath
+10 10 moveto
+10 240 lineto
+390 240 lineto
+390 10 lineto
+closepath
+stroke
+
+% Dibuja el círculo
+newpath
+100 160 40 0 360 arc
+0.8 setgray fill
+stroke
+
+% Configura la fuente
+/Helvetica-Bold findfont
+14 scalefont
+setfont
+
+% Dibuja el nombre
+200 180 moveto
+(Drago Kovacevic) show
+
+% Configura la fuente para el título
+/Helvetica findfont
+12 scalefont
+setfont
+
+% Dibuja el título
+200 160 moveto
+(Ejecutivo de Cuentas) show
+
+% Dibuja la dirección
+200 140 moveto
+(Pº de la Castellana, 141) show
+
+% Dibuja la segunda línea de la dirección
+200 125 moveto
+(Local 2 - Edificio Cuzco IV) show
+
+% Dibuja la ciudad
+200 110 moveto
+(28046 Madrid) show
+
+% Dibuja el teléfono
+200 95 moveto
+(Tels. 914 174 550 / 669 896 224) show
+
+% Dibuja el email
+200 80 moveto
+(drago@iserotel.es) show
+
+showpage

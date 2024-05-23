@@ -1,0 +1,62 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 400 400
+
+% Dibuja el techo de la casa
+newpath
+200 300 moveto
+100 200 lineto
+300 200 lineto
+closepath
+0.8 setgray fill
+stroke
+
+% Dibuja el cuerpo de la casa
+newpath
+100 50 moveto
+100 200 lineto
+300 200 lineto
+300 50 lineto
+closepath
+0.9 setgray fill
+stroke
+
+% Dibuja la puerta
+newpath
+180 50 moveto
+180 150 lineto
+220 150 lineto
+220 50 lineto
+closepath
+1 setgray fill
+stroke
+
+% Dibuja la ventana izquierda
+newpath
+120 160 moveto
+120 190 lineto
+150 190 lineto
+150 160 lineto
+closepath
+0.7 setgray fill
+stroke
+
+% Dibuja la ventana derecha
+newpath
+250 160 moveto
+250 190 lineto
+280 190 lineto
+280 160 lineto
+closepath
+0.7 setgray fill
+stroke
+
+% Añade el texto "mi casita"
+/Helvetica findfont
+20 scalefont
+setfont
+90 10 moveto
+90 rotate
+(mi casita) show
+-90 rotate
+
+showpage
